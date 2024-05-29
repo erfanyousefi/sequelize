@@ -5,12 +5,15 @@
   "directories": {
     "example": "examples"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.37",
+    "mysql2": "^3.9.9"
+  }
 }
